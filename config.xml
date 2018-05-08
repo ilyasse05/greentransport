@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ma.greentransport.beta" version="1.0.0">
   <name>Green Transport</name>
   <description>GreenTransport.ma</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">Green Transpor</author>
+  <author href="https://greentransport.ma" email="contact@greentransport.ma">Green Transpor</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4"/>
