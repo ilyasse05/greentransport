@@ -99,4 +99,10 @@
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
+  <config-file platform="android" parent="/manifest" mode="delete">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</config-file>
+<config-file platform="android" parent="/manifest" mode="delete">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</config-file>
 </widget>
