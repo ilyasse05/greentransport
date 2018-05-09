@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ma.greentransport.beta" version="1.0.2">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ma.greentransport.beta" version="1.0.3">
   <name>Green Transport</name>
   <description>GreenTransport.ma</description>
   <author href="https://greentransport.ma" email="contact@greentransport.ma">Green Transpor</author>
@@ -95,9 +95,11 @@
   <allow-intent href="geo:*"/>
   <platform name="android">
     <allow-intent href="market:*"/>
+    <allow-navigation href="https://greentransport.ma/*" />
   </platform>
   <platform name="ios">
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
+    <allow-navigation href="https://greentransport.ma/*" />
   </platform>
 </widget>
