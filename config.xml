@@ -4,6 +4,7 @@
   <author href="https://greentransport.ma" email="contact@greentransport.ma">Green Transpor</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
+  <preference name="stay-in-webview" value="true" />
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4"/>
  
   <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
