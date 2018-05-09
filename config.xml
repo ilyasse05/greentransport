@@ -96,10 +96,12 @@
   <platform name="android">
     <allow-intent href="market:*"/>
     <allow-navigation href="https://greentransport.ma/*" />
+    <allow-navigation href="http://greentransport.ma/*" />
   </platform>
   <platform name="ios">
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
     <allow-navigation href="https://greentransport.ma/*" />
+    <allow-navigation href="http://greentransport.ma/*" />
   </platform>
 </widget>
