@@ -46,19 +46,18 @@
 
  
 	<div class="app" id="app" width="100%" height="100%">
-		
+		<a class="app" onClick="OpenLink();">Go</a>
     </div>
-<script type="text/javascript">
-	window.location="https://greentransport.ma";
-</script>	
+ 	
 	
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
-        //app.initialize();
-		 alert('Test');
-		 
-		//window.location.replace("https://www.greentransport.ma");
+app.initialize();
+function OpenLink(){
+    window.open("https://greentransport.ma", "_system");
+	window.location="https://greentransport.ma";
+}
     </script>
 	 
 	
